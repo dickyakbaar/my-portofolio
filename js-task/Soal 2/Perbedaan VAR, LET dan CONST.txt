@@ -1,0 +1,8 @@
+//Perbedaan VAR, LET dan CONST
+
+//1) Assignment (let dan var dapat diubah isinya kembali sementara const tidak dapat diubah).
+//2) Hoisting (Variabel yang dideklarasikan menggunakan var selalu dinaikkan ke bagian atas ruang lingkup masing-masing, 
+sedangkan variabel yang dideklarasikan menggunakan const dan biarkan tidak dinaikkan).
+//3) Scope (var adalah function-scoped, let dan const adalah block-scoped;
+secara umum, blok adalah kode apa pun dalam kurung kurawal {}, termasuk fungsi, pernyataan kondisional, dan loop)
+//Implementation : Dapat dilihat di website (https://www.elcreativeacademy.com/2021/11/perbedaan-keyword-var-let-dan-const.html)
