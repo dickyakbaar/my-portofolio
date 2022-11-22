@@ -1,12 +1,16 @@
-let jarak = 10
+//soal 6
+
+function totalOngkir() {
+}
+let jarak = 3
 let ongkir1 = 5000
-let ongkir2 = ongkir1
-ongkir2 = ongkir2 + (3000*jarak)
+let biaya = ongkir1
+biaya = biaya + (3000*jarak);
 
 if (jarak <= 2) {
  console.log(ongkir1)
 } else if (jarak > 2){
- console.log(ongkir2)
+ console.log(biaya)
 } else {
-  console.log('Error')
+  console.log('error');
 }
